@@ -10,45 +10,69 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,400;0,600;0,800;1,900&display=swap" rel="stylesheet">
 
+    <!-- ENLAZAR A BOOTSTRAP CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    
     <!-- ENLAZAR A CSS -->
     <link rel="stylesheet" href="../css/style.css">
     
 </head>
 
-<body>
-    <div class="gridHome">
-        <header class="header headerIndex sticky mb-10 pd">
-        <div class="logo">
-            <img src="../IMG/pies_logo.png" alt="logo bailarina" width="80" class="achicar">
-        </div>
-        <nav class="navIndex">
-            <ul>
-                <li><a href="../index.html">Index</a></li>
-                <li><a href="../pages/2metodo.html">Método</a></li>
-                <li class="largo"><a href="../pages/3historia.html">Mi Historia</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="../pages/5contacto.html">Contacto</a></li>
-            </ul>
-            
+<body class="bg-fondo">
+    <div class="container-fluid">
+        <header class="row bg-principal rounded-bottom">
+        <nav class="navbar navbar-expand-lg color__text">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="../IMG/pies_logo.png" alt="logo bailarina" class="pic__logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Index</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/2metodo.html">Método</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/3historia.html">Mi Historia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/5contacto.html">Contacto</a>
+                </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-        </header> 
 
-        <main class="main">
+        </header>
+    </div>
+
+
+    <main class="m-5">
         <div>
             <h6>Productos</h6>
         </div>
-        <div class="gridProducto">
-
-            <div class="gridProd01">
-                <article class="m80">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-8 col-12 bg-white mt-3 rounded">
+                    <article class="m-xl-5 p-3">
                     <div>
-                        <h1>Pelota de ejercicios</h1>
+                        <h1 class="font_Size">Pelota de ejercicios</h1>
                     </div>
-                    <img src="../IMG/exerciseball.png" alt="pelota de ejercicios" class="m80">
-                    <p>También conocida como "Pelota Suiza" o "Fitball". <br><br>
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img src="../IMG/exerciseball.png" alt="pelota de ejercicios" class="p-xl-5 p-2 pic__met">
+                    </div>
+                    <p class="p-xl-5 p-1 text__art3">También conocida como "Pelota Suiza" o "Fitball". <br><br>
                     Usa tu altura para medir la pelota que necesitas, colócate junto a una pelota de ejercicio, la pelota debe estar a la altura o ligeramente por encima del nivel de tu rodilla. La mejor manera de medir e fitball es sentándote sobre él. Cuando te sientes sobre la pelota, las rodillas deben estar dobladas en un ángulo de 90 grados y tus muslos deben estar paralelos al suelo. Consulta tu altura y comprueba qué tamaño de pelota deberías probar primero.</p>
-                    <table class="tablaProducto" cellpadding="15" border="5">
-                <tr class="tr01Producto">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <table class="p-5" cellpadding="15" border="5">
+                <tr>
                     <th>ALTURA</th>
                     <th>TAMAÑO DE PELOTA</th>
                 </tr>
@@ -68,66 +92,63 @@
                     <td>178-193cm</td>
                     <td>pelota de 75cm</td>
                 </tr>
-                    </table>
-                </article>
-            </div>
-
-            <div class="np1">
-            </div>
-
-            <div class="gridAsideP01">
-                <aside class="asideProducto mt">
-                <div class="p20">
-                    <h4>Otros productos</h4>
+                        </table>
+                    </div>
+                    </article>
                 </div>
-                <section class="flexboxsp p20">
-                    <img src="../IMG/medium-ball-toy-ball.png" alt="PELOTA PEQUEÑA DE PILATES BLANDA" class="img1prod">
-                    <h5 class="m40">PELOTA PEQUEÑA DE PILATES BLANDA</h5>
-                </section>
-                <section class="flexboxsp p20">
-                    <img src="../IMG/resistanceband.png" alt="BANDA DE RESISTENCIA" class="img1prod">
-                    <h5 class="m40">BANDA DE RESISTENCIA</h5>
-                </section>
-                <section class="flexboxsp p20">
-                    <img src="../IMG/bosu.png" alt="BOSU" class="img1prod">
-                    <h5 class="m40">BOSU</h5>
-                </section>
-                <section class="flexboxsp p20">
-                    <img src="../IMG/miniloopband.png" alt="MINI BANDA DE BUCLE" class="img1prod">
-                    <h5 class="m40">MINI BANDA DE BUCLE</h5>
-                </section>
-                <section class="flexboxsp p20">
-                    <img src="../IMG/lacrosseball.png" alt="PELOTA DE LACROSSE" class="img1prod">
-                    <h5 class="m40">PELOTA DE LACROSSE</h5>
-                </section>
-                </aside>
-            </div>
+                <div class="col-xl-3 col-12 m-xl-5 d-flex flex-column justify-content-center align-items-center">
+                    <aside class="bg-secondary rounded mt-4">
+                        <div class="p-5 d-flex flex-column justify-content-center align-items-center">
+                            <h4>Otros productos</h4>
+                            <section class="bg-principal rounded m-3 rec__prod p-3 d-flex flex-column justify-content-center align-items-center">
+                                <img src="../IMG/medium-ball-toy-ball.png" alt="PELOTA PEQUEÑA DE PILATES BLANDA" class="pic__prod">
+                                <h6 class="centrado mt-2">PELOTA PEQUEÑA BLANDA</h6>
+                            </section>
+                            <section class="bg-principal rounded m-3 rec__prod p-3 d-flex flex-column justify-content-center align-items-center">
+                                <img src="../IMG/resistanceband.png" alt="BANDA DE RESISTENCIA" class="pic__prod">
+                                <h6 class="centrado mt-2">BANDA DE RESISTENCIA</h6>
+                            </section>
+                            <section class="bg-principal rounded m-3 rec__prod p-3 d-flex flex-column justify-content-center align-items-center">
+                                <img src="../IMG/bosu.png" alt="BOSU" class="pic__prod">
+                                <h6 class="centrado mt-2">BOSU</h6>
+                            </section>
+                            <section class="bg-principal rounded m-3 rec__prod p-3 d-flex flex-column justify-content-center align-items-center">
+                                <img src="../IMG/miniloopband.png" alt="MINI BANDA DE BUCLE" class="pic__prod">
+                                <h6 class="centrado mt-2">MINI BANDA DE BUCLE</h6>
+                            </section>
+                            <section class="bg-principal rounded m-3 rec__prod p-3 d-flex flex-column justify-content-center align-items-center">
+                                <img src="../IMG/lacrosseball.png" alt="PELOTA DE LACROSSE" class="pic__prod">
+                                <h6 class="centrado mt-2">PELOTA DE LACROSSE</h6>
+                            </section>
+                        </div>
+                    </aside>
 
-            <div class="np2">
+                </div>
             </div>
-
         </div>
 
-        </main>  
-    
-        <footer class="footer mt-10 pd">
-            <div class="logo">
-            <img src="../IMG/pies_logo.png" alt="logo PBT" width="80" class="achicar2">
-            </div>
-            <div class="rrss">
-            <h3 class="h3f">REDES SOCIALES</h3>
-            
-            <a href="https://www.facebook.com" target="_blank"><img src="../IMG/facebook.png" alt="facebook" class="achicar2"></a>
-            <a href="https://twitter.com/" target="_blank"><img src="../IMG/twitter.png" alt="twitter" class="achicar2"></a>
-            <a href="https://www.instagram.com/" target="_blank"><img src="../IMG/instagram.png" alt="instagram" class="achicar2"></a>
-            </div>
-            <div class="contacto">
-                <h3>CONTACTO</h3>
-                <p>gat@.com</p>
-                <p>223 456 7890</p>
-            </div>
-        </footer>
-    </div>
+        </main>
+
+        <div class="container-fluid">
+            <footer class="row bg-principal color__text rounded-top mt-5">
+                <div class="col-xl-4 col-12 d-flex flex-column justify-content-around align-items-center align-self-center">
+                <img src="../IMG/pies_logo.png" alt="logo PBT" class="pic__logo mt-3">
+                </div>
+                <div class="col-xl-4 col-12 d-flex flex-row justify-content-evenly align-items-center align-self-center mt-3">
+                <h3>REDES SOCIALES</h3>
+                
+                <a href="https://www.facebook.com" target="_blank"><img src="../IMG/facebook.png" alt="facebook" class="pic__rs"></a>
+                <a href="https://twitter.com/" target="_blank"><img src="../IMG/twitter.png" alt="twitter" class="pic__rs"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="../IMG/instagram.png" alt="instagram" class="pic__rs"></a>
+                </div>
+                <div class="col-xl-4 col-12 d-flex flex-column justify-content-around align-items-center align-self-center mt-4">
+                    <h3>CONTACTO</h3>
+                    <p>gat@.com</p>
+                    <p>223 456 7890</p>
+                </div>
+                </footer>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -10,80 +10,127 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,400;0,600;0,800;1,900&display=swap" rel="stylesheet">
 
+    <!-- ENLAZAR A BOOTSTRAP CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    
     <!-- ENLAZAR A CSS -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
-<body>
-    <div class="gridHome">
-        <header class="header headerIndex sticky mb-10 pd">
-        <div class="logo">
-            <img src="../IMG/pies_logo.png" alt="logo bailarina" width="80" class="achicar">
-        </div>
-        <nav class="navIndex">
-            <ul>
-                <li><a href="../index.html">Index</a></li>
-                <li><a href="../pages/2metodo.html">Método</a></li>
-                <li class="largo"><a href="#">Mi Historia</a></li>
-                <li><a href="../pages/4productos.html">Productos</a></li>
-                <li><a href="../pages/5contacto.html">Contacto</a></li>
-            </ul>
-            
-        </nav>
-        </header> 
+<body class="bg-fondo">
 
-        <main class="main">
+    <div class="container-fluid">
+        <header class="row bg-principal rounded-bottom">
+        <nav class="navbar navbar-expand-lg color__text">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="../IMG/pies_logo.png" alt="logo bailarina" class="pic__logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Index</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/2metodo.html">Método</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Mi Historia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/4productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/5contacto.html">Contacto</a>
+                </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        </header>
+    </div>
+
+
+
+
+
+
+
+    <main>
         <article>
-            <div >
+            <div class="ps-5 pt-5">
                 <h6>Mi historia</h6>
             </div>
-            <div id="AnaliaManuelaBusto">
-                <h1>ANALIA MANUELA BUSTO</h1>
+            <div class="ps-5">
+                <h1 class="font_Size">ANALIA MANUELA BUSTO</h1>
             </div>
 
-            <div class="gridhistoria">
-
-                <div class="texto01Historia flexh1 p20">
-                    <p class="texth">Nacida en Puerto Madryn, Provincia de Chubut, Argentina.
+            <div class="container-fluid p-5">
+                <div class="row">
+                <div class="col-xl-6 col-12 d-flex flex-row align-items-center">
+                    <p class="text__art3">Nacida en Puerto Madryn, Provincia de Chubut, Argentina.
                     Analía es bailarina de danza clásica y contemporánea, maestra, autodidacta y certificada en distintos niveles  de PBT.
                     Desde sus inicios tuvo inquietud por la  danza, estudiando desde los 8 años, paso por diferentes maestros, hasta que se instalo en Buenos Aires. Allí estudio con el maestro Luis Baldasare, Cecilia Gezualdo, entre otros grandes amantes de la técnica clásica  por biomecánica.
                     Siguiendo este camino decidió perfeccionar sus estudios y poder ayudar y transmitir a otros alumnos, bailarines y todo tipo de publico que este interesado en trabajar el cuerpo desde la conciencia y el potencial de cada uno.
                     Hoy la metodología del PBT es cada vez mas amplia y permite que público de todas las edades incursionen en ella.</p>
-                    <img src="../IMG/PBT04.jpg" alt="imgH" class="imgh p20">
+                </div>
+                <div class="col-xl-6 col-12 d-flex flex-column align-items-center">
+                    <img src="../IMG/PBT04.jpg" alt="imgH" class="pic__met">
+                </div>
                 </div>
 
-                <div class="texto02Historia flexh2 p20">
-                    <img src="../IMG/PBT01.jpg" alt="img1H" class="img1h p20">
-                    <p class="text1h">Marie Walton-Mahon ha enseñado a muchos de los bailarines más destacados de todas partes del mundo, en especial en Australia de donde es orionda. Es maravilloso que esté compartiendo su técnica a través de este programa con el resto de la comunidad del mundo de la danza, siendo una gran herramienta tanto para docentes como para bailarines. Es una gran inspiración y formadora de profesionales.</p>
+                <div class="row p-xl-5">
+                <div class="col-xl-6 col-12 d-flex flex-column align-items-start">
+                    <img src="../IMG/PBT01.jpg" alt="img1H" class="pic__met mt-4">
+                </div>
+                <div class="col-xl-6 col-12 d-flex flex-row align-items-center">
+                    <p class="text__art3 mt-4">Marie Walton-Mahon ha enseñado a muchos de los bailarines más destacados de todas partes del mundo, en especial en Australia de donde es orionda. Es maravilloso que esté compartiendo su técnica a través de este programa con el resto de la comunidad del mundo de la danza, siendo una gran herramienta tanto para docentes como para bailarines. Es una gran inspiración y formadora de profesionales.</p>
+                </div>
                 </div>
 
-                <div class="texto03Historia flexh3 p20">
-                    <p class="text2h">Con décadas de experiencia trabajando con bailarines desde principiantes hasta profesionales, la Sra. Marie Walton-Mahon ha formado a innumerables bailarines profesionales en todo el mundo. El programa de la Sra. Walton-Mahon proporciona a los estudiantes un profundo conocimiento y comprensión de la anatomía del cuerpo, la fuerza central y la técnica. A través de sus cuidadosos y creativos métodos de enseñanza, me proporcionó una valiosa educación en danza y la fuerte base necesaria para tener éxito en una industria con tanta competencia. Este programa es crucial para cualquier bailarín que quiera llevar su baile al siguiente nivel. Altamente recomiendo la Técnica de Ballet Progresivo (PBT).</p>
-                    <img src="../IMG/PBT03.jpg" alt="img2H" class="img2h p20">
+                <div class="row p-xl-5">
+                <div class="col-xl-6 col-12 d-flex flex-row align-items-start">
+                    <p class="text__art3">Con décadas de experiencia trabajando con bailarines desde principiantes hasta profesionales, la Sra. Marie Walton-Mahon ha formado a innumerables bailarines profesionales en todo el mundo. El programa de la Sra. Walton-Mahon proporciona a los estudiantes un profundo conocimiento y comprensión de la anatomía del cuerpo, la fuerza central y la técnica. A través de sus cuidadosos y creativos métodos de enseñanza, me proporcionó una valiosa educación en danza y la fuerte base necesaria para tener éxito en una industria con tanta competencia. Este programa es crucial para cualquier bailarín que quiera llevar su baile al siguiente nivel. Altamente recomiendo la Técnica de Ballet Progresivo (PBT).</p>
                 </div>
-
+                <div class="col-xl-6 col-12 d-flex flex-column align-items-center">
+                    <img src="../IMG/PBT03.jpg" alt="img2H" class="pic__met mt-4">
+                </div>
+                
+                </div>
             </div>
+
         </article>
-        </main>
+    </main>
 
-        <footer class="footer mt-10 pd">
-            <div class="logo">
-            <img src="../IMG/pies_logo.png" alt="logo PBT" width="80" class="achicar2">
-            </div>
-            <div class="rrss">
-            <h3 class="h3f">REDES SOCIALES</h3>
-            
-            <a href="https://www.facebook.com" target="_blank"><img src="../IMG/facebook.png" alt="facebook" class="achicar2"></a>
-            <a href="https://twitter.com/" target="_blank"><img src="../IMG/twitter.png" alt="twitter" class="achicar2"></a>
-            <a href="https://www.instagram.com/" target="_blank"><img src="../IMG/instagram.png" alt="instagram" class="achicar2"></a>
-            </div>
-            <div class="contacto">
-                <h3>CONTACTO</h3>
-                <p>gat@.com</p>
-                <p>223 456 7890</p>
-            </div>
-        </footer>
-    </div>
+
+
+
+
+
+        <div class="container-fluid">
+            <footer class="row bg-principal color__text rounded-top mt-5">
+                <div class="col-xl-4 col-12 d-flex flex-column justify-content-around align-items-center align-self-center">
+                <img src="../IMG/pies_logo.png" alt="logo PBT" class="pic__logo mt-3">
+                </div>
+                <div class="col-xl-4 col-12 d-flex flex-row justify-content-evenly align-items-center align-self-center mt-3">
+                <h3>REDES SOCIALES</h3>
+                
+                <a href="https://www.facebook.com" target="_blank"><img src="../IMG/facebook.png" alt="facebook" class="pic__rs"></a>
+                <a href="https://twitter.com/" target="_blank"><img src="../IMG/twitter.png" alt="twitter" class="pic__rs"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="../IMG/instagram.png" alt="instagram" class="pic__rs"></a>
+                </div>
+                <div class="col-xl-4 col-12 d-flex flex-column justify-content-around align-items-center align-self-center mt-4">
+                    <h3>CONTACTO</h3>
+                    <p>gat@.com</p>
+                    <p>223 456 7890</p>
+                </div>
+                </footer>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 
 </html>
