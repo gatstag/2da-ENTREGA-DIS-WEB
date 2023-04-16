@@ -10743,7 +10743,7 @@ textarea.form-control-lg {
 }
 
 .pic__card {
-  max-height: 350px;
+  max-height: 400px;
 }
 
 .centrado {
@@ -10809,7 +10809,7 @@ container {
   width: auto;
   height: 250px;
   max-width: 500px;
-  max-height: 500px;
+  max-height: 400px;
 }
 
 /*# sourceMappingURL=style.css.map */
