@@ -1,19 +1,62 @@
-.bg-principal{background-color:lightpink;}
+
+.bg-principal{background-color:rgb(255, 182, 193);}
 .bg-fondo {background-color:rgb(255, 208, 215);}
 .main_h1{color:rgb(115, 23, 115);}
 .color__text{color:rgb(115, 23, 115);}
+:root{
+        --bg-principal:rgb(255, 208, 215);
+        --font-p-desktop:40px;
+}
+a:hover{font-size:20px;
+        background-color:var(--bg-principal);
+        padding:4px;
+        border-radius:5px;}
 
-.pic__logo{width: auto; height: auto; max-width: 90px;max-height: 90px;}
+.btn {width: 40%;
+        height: 40px;
+        background: rgb(255, 182, 193);
+        border-color: rgb(115, 23, 115);
+        border-radius:10px;
+        transition:.5s all;}
+
+.btn:hover{box-shadow: 5px 9px 13px 4px rgba(207,142,152,1);
+            -webkit-box-shadow: 5px 9px 13px 4px rgba(207,142,152,1);
+            -moz-box-shadow: 5px 9px 13px 4px rgba(207,142,152,1);
+            background: rgb(115, 23, 115);cursor:pointer;}
+
+.pic__logo{width: auto;
+            height: auto;
+            max-width: 90px;
+            max-height: 90px;}
 .pic__card{max-height: 400px;}
-.centrado{text-align: center;color: whitesmoke;}
-.centrado__h1{text-align: center;color: lightpink;}
-.pic__rs{width: auto; height: auto; max-width: 40px;max-height: 40px;}
-container{position: relative;text-align: center;}
-.text__art{text-align: justify;padding: 20px;}
-.text__art2{text-align: justify;padding: 10px;}
+.centrado{text-align: center;
+            color: whitesmoke;}
+.centrado__h1{text-align: center;
+            color: lightpink;}
+.pic__rs{width: auto;
+            height: auto;
+            max-width: 40px;
+            max-height: 40px;}
+
+.text__art{text-align: justify;
+            padding: 20px;}
+.text__art2{text-align: justify;
+            padding: 10px;}
 .text__art3{text-align: justify;}
-.pic__met{max-width: 100%;max-height: 100%;}
+.pic__met{max-width: 100%;
+            max-height: 100%;}
 .font_Size{font-size: 4vw}
-.pic__prod{width: auto; height: auto; max-width: 120px;max-height: 120px;}
-.rec__prod{width: 180px; height: 180px; max-width: 180px;max-height: 180px;}
-.pic__cont{width: auto; height: 250px; max-width: 500px;max-height: 400px;}
+.pic__prod{width: auto;
+            height: auto;
+            max-width: 120px;
+            max-height: 120px;}
+.rec__prod{width: 180px;
+            height: 180px;
+            max-width: 180px;
+            max-height: 180px;}
+.pic__cont{width: auto;
+            height: 250px;
+            max-width: 500px;
+            max-height: 400px;}
+.gradiente_header{background-image: linear-gradient(to bottom,rgb(207, 142, 152), lightpink)}
+.gradiente_footer{background-image: linear-gradient(to bottom,lightpink, rgb(207, 142, 152)),}

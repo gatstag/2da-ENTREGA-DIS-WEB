@@ -3,6 +3,10 @@ PROYECTO 3era ENTREGA
 Maqueta con grillas de BOOTSTRAP
 Trajimos el codigo fuente SASS del framework para poder editarlo en el caso que se necesite
 tiene animaciones de libreria AOS
+tiene hover en los botones
+tiene FAVICON
+tiene SEO
+tiene degrades en header y footer
 en BOOTSTRAP.scss se encuentra // MI CODIGO SCSS @import "00_nuestro_cod"; donde se genera codigo extra.
 Utilizamos un controlador de versiones GIT
 Cargamos nuestro codigo en un repo de GITHUB

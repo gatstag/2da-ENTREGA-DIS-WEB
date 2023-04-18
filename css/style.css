@@ -10720,7 +10720,7 @@ textarea.form-control-lg {
   }
 }
 .bg-principal {
-  background-color: lightpink;
+  background-color: rgb(255, 182, 193);
 }
 
 .bg-fondo {
@@ -10733,6 +10733,35 @@ textarea.form-control-lg {
 
 .color__text {
   color: rgb(115, 23, 115);
+}
+
+:root {
+  --bg-principal:rgb(255, 208, 215);
+  --font-p-desktop:40px;
+}
+
+a:hover {
+  font-size: 20px;
+  background-color: var(--bg-principal);
+  padding: 4px;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 40%;
+  height: 40px;
+  background: rgb(255, 182, 193);
+  border-color: rgb(115, 23, 115);
+  border-radius: 10px;
+  transition: 0.5s all;
+}
+
+.btn:hover {
+  box-shadow: 5px 9px 13px 4px rgb(207, 142, 152);
+  -webkit-box-shadow: 5px 9px 13px 4px rgb(207, 142, 152);
+  -moz-box-shadow: 5px 9px 13px 4px rgb(207, 142, 152);
+  background: rgb(115, 23, 115);
+  cursor: pointer;
 }
 
 .pic__logo {
@@ -10761,11 +10790,6 @@ textarea.form-control-lg {
   height: auto;
   max-width: 40px;
   max-height: 40px;
-}
-
-container {
-  position: relative;
-  text-align: center;
 }
 
 .text__art {
@@ -10810,6 +10834,14 @@ container {
   height: 250px;
   max-width: 500px;
   max-height: 400px;
+}
+
+.gradiente_header {
+  background-image: linear-gradient(to bottom, rgb(207, 142, 152), lightpink);
+}
+
+.gradiente_footer {
+  background-image: linear-gradient(to bottom, lightpink, rgb(207, 142, 152));
 }
 
 /*# sourceMappingURL=style.css.map */
